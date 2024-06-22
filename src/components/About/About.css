@@ -1,0 +1,89 @@
+#about {
+    padding: 2rem;
+    text-align: center;
+}
+
+.aboutMe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Qatorlarga ajratish uchun */
+    gap: 1rem; /* Elementlar orasidagi bo'shliq */
+    margin-top: 2rem;
+}
+
+.information {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd; /* Chegarani qo'shish */
+    border-radius: 10px; /* Burchaklarni yumaloqlash */
+    background-color: #f9f9f9; /* Orqa fon rangi */
+    transition: transform 0.3s, background-color 0.3s; /* Hover animatsiya */
+}
+
+.information:hover {
+    transform: scale(1.1); /* Katta qilish */
+    background-color: #e0e0e0; /* Orqa fon rangini o'zgartirish */
+}
+
+.information svg {
+    width: 50px;
+    height: 50px;
+    color: #333; /* Ikonkalar rangini o'zgartirish */
+}
+
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#about p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Responsiv dizayn */
+@media (max-width: 768px) {
+    .aboutMe {
+        flex-direction: column;
+    }
+
+    .information {
+        width: 120px;
+        height: 120px;
+    }
+
+    #about h2 {
+        font-size: 1.5rem;
+    }
+
+    #about p {
+        font-size: 1rem;
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .information {
+        width: 100px;
+        height: 100px;
+    }
+
+    .information svg {
+        width: 40px;
+        height: 40px;
+    }
+
+    #about h2 {
+        font-size: 1.2rem;
+    }
+
+    #about p {
+        font-size: 0.9rem;
+        padding: 0 0.5rem;
+    }
+}

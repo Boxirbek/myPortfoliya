@@ -1,0 +1,23 @@
+#contact {
+    padding: 2rem;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.social-links a {
+    margin: 0 1rem;
+    color: #2600ff;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.3s;
+}
+
+.social-links a:hover {
+    border-color: #61dafb;
+}

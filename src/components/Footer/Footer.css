@@ -1,0 +1,39 @@
+footer {
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
+
+footer a {
+    color: #61dafb;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.fotApp {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.fotApp a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.fotApp a:hover {
+    text-decoration: underline;
+}
+
